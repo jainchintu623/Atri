@@ -1,0 +1,91 @@
+.Custom_order-section{
+    padding: 2rem 0rem;
+    background-color: #B5C6BD80;
+}
+
+.Custom-order-content{
+    width: 90%;
+    margin: auto;
+}
+.Custom-Order_head {
+ text-align: center;
+ font-family: Philosopher;
+ font-size: 30px;
+ font-weight: 700;
+ line-height: 33.6px;
+ padding-bottom: 1.6rem ;
+}
+.Custom-Order_head h1,
+.Custom-order-option-head h2{
+  color: #000000;
+  font-size: 30px;
+
+}
+.Custom-Order_head span{
+
+color:#5F6A54
+}
+.Custom-Order_head p{
+    font-family: Poppins;
+font-size: 20px;
+font-weight: 400;
+line-height: 28px;
+color: #000000;
+}
+
+.Custom_order-input{
+    padding: 30px 0px;
+    position: relative;
+}
+
+.Custom_order-input input,
+.Custom-order-option-input-url input{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #000000;
+    padding: 5px 0px;
+    background-color: transparent;
+  
+}
+.Custom_order-input input 
+.Custom_order-input input::placeholder{
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+color: #00000080;
+
+}
+.Custom_order-input select{
+    position: absolute;
+    right: 26%;
+   bottom: 33%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    /* width: 200px; */
+}
+.Custom_order-input select option{
+    background-color: #B5C6BD80;
+    color: #000000;
+}
+
+
+.Custom-order-option{
+    padding: 1rem 0rem;
+}
+.Custom-order-send-btn {
+    padding: 1rem 0rem;
+}
+.Custom-order-send-btn button{
+    outline: none;
+    border: none;
+    background-color: #5F6A54;
+    padding: 10px 30px;
+    font-family: Poppins;
+font-size: 18px;
+font-weight: 500;
+line-height: 27px;
+ color: #FFFFFF;
+ text-decoration: none;
+}

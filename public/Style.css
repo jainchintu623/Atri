@@ -1,0 +1,294 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header{
+   background-color: #fff;
+   text-align: center;
+}
+
+.header-details{
+  align-items: center;
+  
+}
+
+.logo{
+ height: 100px; 
+}
+
+.logo-img{
+  width: 120px;
+  display: inline-block;
+  text-align: center;
+  
+}
+
+.logo-img img{
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.search-bar-icon .search{
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+
+
+.add-bag{
+  display: flex;
+ justify-content: center;
+}
+
+.add-bag-icon{
+  padding: 0px 10px;
+}
+
+.add-bag-icon,.profile .bag-outline{
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+
+
+
+.Header-img{
+  height: 800px;
+  width: 100%;
+}
+
+.navbar{
+  /* display: flex; */
+  justify-content: center;
+}
+
+
+
+
+.Personalised-heading ,
+.Catlogue-heading,
+.Stories-heading{
+   padding: 30px 0px;
+}
+.Personalised-heading h1,
+.Catlogue-heading h1,
+.Stories-heading h1{
+  text-transform: uppercase;
+  padding: 10px 0px;
+  font-family: Philosopher;
+font-size: 40px;
+font-weight: 400;
+line-height: 40px;
+text-align: center;
+
+}
+
+.Shop-personalised-images img{
+  width: 100%;
+}
+
+.Shop-personalised-images{
+  position: relative;
+}
+.Shop-personalised-images-details{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+.Shop-personalised-images-details h3,
+.catlogue-product-imgages-deatils h3,
+.silver-catlogue-img-details h3{
+font-family: Josefin Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 25px;
+color: #FFFFFF;
+}
+.Shop-personalised-images-details a,
+.catlogue-product-imgages-deatils a,
+.silver-catlogue-img-details a{
+font-family: Poppins;
+font-size: 15px;
+font-weight: 600;
+line-height: 25px;
+text-decoration: none;
+color: #fff;
+}
+
+
+.Catlogue{
+  background-color: #BDC6B5;
+}
+
+.Silver-Catlogue-section{
+  background-color: #BDC6B5;
+  margin: 2rem 0rem;
+}
+
+.silver-catlogue-card-details{
+  align-items: center;
+}
+
+
+
+.Catlogue-card{
+ align-items: center;
+ height: 33rem;
+}
+.catlogue-left-content,
+.silver-catlogue-left-content{
+  position: relative;
+}
+.catlogue-first-image,
+.silver-catlogue-last-image{
+  max-width: 550px;
+  height: 550px;
+}
+.catlogue-first-image img,
+.silver-catlogue-last-image img{
+  width: 100%;
+  height: 100%;
+}
+
+.catlogue-first-image-head{
+  position: absolute;
+  right: 8%;
+  transform: rotate(90deg) translate(90%,-5%);
+}
+.catlogue-first-image-head  h2,
+.silver-catlogue-last-image-head h2{
+  font-size: 2rem;
+}
+.silver-catlogue-last-image-head{
+  position: absolute;
+  left: -4%;
+  transform: rotate(90deg) translate(90%,100%);
+
+}
+
+.Catlogue-card-details{
+
+   text-align: center;
+   padding: 10px 10px;
+   /* margin: 0px 15px; */
+}
+.catlogue-product-imgages,
+.silver-catlogue-img{
+  background-color: #fff;
+  width: 197px;
+height: 192px;
+padding-top: 30px;
+display: inline-block;
+/* text-align: center; */
+
+}
+.catlogue-product-imgages img,
+.silver-catlogue-img img{
+  width: 104px;
+  height: 135.82px;
+  margin: auto;
+}
+
+
+.stories-images img{
+  width: 100%;
+}
+
+.stories-details{
+  text-align: center;
+}
+
+.Stories-caption{
+  padding-top: 10px;
+  font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+line-height: 32px;
+color: #000;
+}
+
+.Stories-caption-date{
+  font-family: Poppins;
+font-size: 14px;
+font-weight: 400;
+line-height: 32px;
+color: #000;
+
+}
+
+.footer-section{
+  background-color: #89917A;
+  
+}
+
+.footer-details{
+   align-items: center;
+}
+
+.footer-logo{
+  display: inline-block;
+  text-align: center;
+  width: 40%;
+}
+
+.footer-logo img{
+  width: 100%;
+}
+.footer-details-Menu ul{
+  margin:0px;
+  padding: 0px;
+}
+.footer-details-Menu ul li{
+ list-style: none;
+
+}
+.footer-details-Menu h3{
+font-family: Josefin Sans;
+font-size: 24px;
+font-weight: 700;
+line-height: 32px;
+color: #FFFFFF;
+}
+
+.footer-details-Menu ul li a{
+ text-decoration: none;
+ font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 32px;
+color: #FFFFFF;
+ }
+
+ .footer-details-social-icon a{
+width: 100px ;
+height: 100px;
+background-color: #FFFFFF;
+border-radius: 50%;
+padding: 10px 10px;
+margin-left: 5px;
+
+ }
+.Social-logos{
+  font-size: 1.5rem;
+  color: #89917A;
+}
+
+.copyWrite-Details{
+  background-color: #BFC6B6;
+
+}
+.copyWrite-Details h2{
+font-family: Poppins;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+color: #000;
+}
+

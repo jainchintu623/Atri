@@ -1,0 +1,24 @@
+.product-section-header-template{
+    background-image: url("https://asset.swarovski.com/images/c_crop,g_xy_center,w_9698,h_3284,x_4889,y_1934/dpr_1.0,f_auto,q_auto,c_lfill,w_375,h_187/swa-cms/STYLING_MODEL_07_376_EXT/.jpg");
+   height: 60vh;
+   background-size: cover;
+ 
+}
+.product-section-header-template-head h1{
+color: #000;
+font-family: "ITCNovareseMed", sans-serif !important;
+line-height: 120% !important;
+font-size: 2.1rem !important;
+font-weight: 500;
+}
+
+.product-img-hover{
+    display: none;
+    
+}
+.product-img:hover .product-img-hover{
+    display: block;
+    z-index: 9999;
+    
+}
+

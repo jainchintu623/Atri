@@ -1,0 +1,80 @@
+
+.Login-section{
+    padding: 2rem 0rem;
+}
+
+.login-left-content-head h1,
+.login-right-content-head h1{
+    font-family: Josefin Sans;
+font-size: 30px;
+font-weight: 400;
+line-height: 30px;
+color: #000000;
+}
+.login-left-content-head p{
+font-family: Poppins;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+color: #000000;
+}
+
+.login-left-content-btn{
+    padding: 20px 0px;
+}
+.login-left-content-btn-register,
+.login-right-content-btn button,
+.login-right-content-btn-login{
+    outline: none;
+    background-color: #5F6A54;
+    padding: 10px 30px;
+    font-family: Poppins;
+font-size: 18px;
+font-weight: 500;
+line-height: 27px;
+ color: #FFFFFF;
+ text-decoration: none;
+}
+.login-right-content-btn{
+    text-align: center;
+   padding: 30px 0px;
+}
+.login-right-content-btn button{
+    border: none;
+    outline: none;
+}
+
+.login-right-content-forgte-btn{
+    text-align: center;
+}
+.login-right-content-forgte-button{
+    text-decoration: none;
+    font-family: Poppins;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+color: #000000;
+}
+
+
+.login-right-content-input{
+    padding: 20px 0px;
+}
+
+.login-right-content-input input{
+    outline: none;
+    border: none;
+    width: 100%;
+    border-bottom: 1px solid #000000;
+    padding: 5px 0px;
+}
+.login-right-content-input input::placeholder{
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+color: #00000080;
+
+}
+
+
